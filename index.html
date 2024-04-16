@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=100.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanofi</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -14,11 +14,9 @@
     </div>
     <!--RSVT-->
 
-    <div class="HWP">
       <div class="RSVT">
         <p onmouseover="showPopup1(event)" onmouseout="hidePopup()">RSVT(Header Work plan)</p>
       </div>
-    </div>
 
     <div class="container">
         <div class="col1">
@@ -223,7 +221,9 @@
     var popup = document.getElementById("n");
     popup.style.display = "block";
     popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
-    popup.style.left = (event.clientX + 10) + "px"; // Position the popup slightly to the right of the mouse cursor
+    popup.style.left = (event.clientX - 40) + "px"; // Position the popup slightly to the right of the mouse cursor
+    
+
   }
   // Function to hide the popup
   function hidePopup() {
