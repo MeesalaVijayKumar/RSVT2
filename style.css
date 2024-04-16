@@ -276,7 +276,7 @@ a{
 
 /* Styling for the popup */
 .popup {
-position: fixed;
+position: absolute;
 display: none; /* Hide popup by default */
 }
 
